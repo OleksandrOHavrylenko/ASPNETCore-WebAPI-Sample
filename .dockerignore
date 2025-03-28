@@ -1,0 +1,25 @@
+# Ignore the .git directory
+.git
+
+# Ignore the Dockerfile and docker-compose files
+Dockerfile
+docker-compose.yaml
+
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore user-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore node modules (if any)
+node_modules/
+
+# Ignore logs and temporary files
+*.log
+tmp/
