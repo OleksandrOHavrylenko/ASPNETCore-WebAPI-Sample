@@ -1,6 +1,6 @@
 services:
   webapi:
-    image: ogavrylenko/webapi-sample:v1
+    image: ogavrylenko/webapi-sample:v1.0
     build:
       context: .
       dockerfile: Dockerfile
